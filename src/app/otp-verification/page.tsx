@@ -2,13 +2,13 @@
 
 import AuthLayout from "@/components/layout/AuthLayout";
 import PageTransition from "@/components/animations/PageTransition";
-import LoginForm from "@/components/auth/LoginForm";
+import OTPVerificationForm from "@/components/auth/OTPVerificationForm";
 
-export default function LoginPage() {
+export default function OTPVerificationPage() {
   return (
     <AuthLayout>
-      <PageTransition keyName="login">
-        <LoginForm />
+      <PageTransition keyName="otp-verification">
+        <OTPVerificationForm />
       </PageTransition>
     </AuthLayout>
   );

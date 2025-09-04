@@ -2,13 +2,13 @@
 
 import AuthLayout from "@/components/layout/AuthLayout";
 import PageTransition from "@/components/animations/PageTransition";
-import LoginForm from "@/components/auth/LoginForm";
+import ResetPasswordForm from "@/components/auth/ResetPasswordForm";
 
-export default function LoginPage() {
+export default function ResetPasswordPage() {
   return (
     <AuthLayout>
-      <PageTransition keyName="login">
-        <LoginForm />
+      <PageTransition keyName="reset-password">
+        <ResetPasswordForm />
       </PageTransition>
     </AuthLayout>
   );
